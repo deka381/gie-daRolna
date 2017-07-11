@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <title>Document</title>
+</head>
+<body>
+
+
+
+<header class="container">
+  <div class="row">
+    <div class="header-logo col-3"></div>
+    <div class="header-buttons col-9">
+      <button type="button" name="button" class="header-btn-left header-buttons-all">DODAJ OGŁOSZENIE</button>
+      <button type="button" name="button" class="header-btn-right header-buttons-all">PREMIUJ OGŁOSZENIE</button>
+    </div>
+  </div>
+</header>
+<section id="serach" class="container">
+  <div class="row">
+    <div class="col-lg-12 col-md-12">
+      <h2>Giełda Rolna</h2>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-1 col-md-1"></div>
+    <div class="col-lg-4 col-md-4">
+      <input type="text" name="find" placeholder="Wpisz szukaną frazę/słowo">
+    </div>
+    <div class="col-lg-3 col-md-3">
+      <select class="serach-select dropdown-toggle" name="">
+        <option value="all">Wszystkie</option>
+        <option value="sell">Sprzedam</option>
+        <option value="buy">Kupię</option>
+      </select>
+    </div>
+    <div class="col-lg-3 col-md-3">
+      <button type="button" name="button">Szukaj</button>
+    </div>
+    <div class="col-lg-1 col-md-1"></div>
+  </div>
+
+  <div class="row serach-hide">
+    <div class="col-lg-12 col-md-12">
+      <p>Zaawansowane pole wyszukiwania<p><span class="glyphicon glyphicon-chevron-down serach-slide-down"></span>
+    </div>
+  </div>
+  <div class="row serach-inputs">
+    <div class="col-lg-1 col-md-1"></div>
+    <div class="col-lg-3 col-md-3">
+      <select class="serach-all-categories" name="serach-all-categories">
+        <option value="all">Wszystkie</option>
+        <optgroup label="Archiwum"></optgroup>
+        <optgroup label="Warzywa">
+          <option value="potato">Ziemniaki</option>
+        </optgroup>
+        <optgroup label="Owoce">
+          <option value="strawberries">Truskawki</option>
+          <option value="raspberries">Maliny</option>
+        </optgroup>
+        <optgroup label="Zboża">
+          <option value="barley">Jęczmień</option>
+          <option value="wheat">Przenica</option>
+          <option value="corn">Kukurydza</option>
+          <option value="colza">Rzepak</option>
+          <option value="buckwheat">Gryka</option>
+          <option value="oat">Owies</option>
+          <option value="rye">Żyto</option>
+          <option value="triticale">Przężyto</option>
+          <option value="legume">Strączkowe</option>
+          <option value="other">Inne</option>
+        </optgroup>
+        <optgroup label="Ciągniki rolnicze">
+          <option value="fendt">Fendt</option>
+          <option value="spare-parts">Części zamienne</option>
+        </optgroup>
+        <optgroup label="Kombainy">
+          <option value="combine">Kombain zbożowy</option>
+        </optgroup>
+        <optgroup label="Maszyny rolnicze">
+          <option value="sprayer">Opriskiwacz</option>
+          <option value="press">Prasa</option>
+          <option value="other-machine">Inne</option>
+        </optgroup>
+        <optgroup label="Zwierzęta">
+          <option value="cattle">Bydło</option>
+          <option value="fowl">Drób</option>
+        </optgroup>
+        <optgroup label="Nieruchomości rolne">
+          <option value="land">Grunty</option>
+        </optgroup>
+        <optgroup label="Środki do produkcji">
+          <option value="fertilizers">Nawozy</option>
+          <option value="feed">Pasze i dodatki</option>
+          <option value="seeds">Nasiona i sadzonki</option>
+          <option value="package">Opakowania</option>
+          <option value="other">Inne</option>
+        </optgroup>
+        <optgroup label="Inne"></optgroup>
+      </select>
+    </div>
+    <div class="col-lg-2 col-md-2">
+      <input type="text" name="" placeholder="Cena od">
+    </div>
+    <div class="col-lg-2 col-md-2">
+      <input type="text" name="" placeholder="Cena do">
+    </div>
+    <div class="col-lg-3 col-md-3">
+      <select>
+        <option value="">Wszystkie</option>
+        <option value="">Dolnośląskie</option>
+        <option value="">Kujawsko-pomorskie</option>
+        <option value="">Lubelskie</option>
+        <option value="">Lubuskie</option>
+        <option value="">Łódzkie</option>
+        <option value="">Małopolskie</option>
+        <option value="">Mazowieckie</option>
+        <option value="">Opolskie</option>
+        <option value="">Podkarpackie</option>
+        <option value="">Podlaskie</option>
+        <option value="">Pomorskie</option>
+        <option value="">Śląskie</option>
+        <option value="">Świętokrzyskie</option>
+        <option value="">Warmińsko-mazurskie</option>
+        <option value="">Wielkopolskie</option>
+        <option value="">Zachodniopomorskie</option>
+      </select>
+    </div>
+    <div class="col-lg-1 col-md-1"></div>
+  </div>
+</section>
+
+<section id="images" >
+  <div class="images-left"></div>
+  <div class="images-right"></div>
+</section>
+
+<section id="text" class="container">
+  <h3>Czasu nie można cofnąć, ale można go zaoszczędzić.</h3>
+  <h4>Właśnie z tego powodu powstał ten portal rolniczy.</h4>
+  <p>
+      <strong>Giełda rolna</strong> to branżowy, niezwykle intuicyjny i kompleksowy serwis
+      stworzony dla wszystkich uczestników rynku rolnego. Portal rolny w szybki
+      i bezpłatny sposób łączy potrzeby wytwórców, sprzedawców i konsumentów.
+      Użytkownicy serwisu Giełda rolna z niewielkim zaangażowaniem mogą docierać
+      na odpowiedni grunt, którego owocem będzie sukces dla wszystkich stron.
+  </p>
+  <p>
+      Wierzymy, że istotna część naszej gospodarki krajowej, jaką jest rolnictwo,
+      potrzebuje sprawnego i silnego medium również w internecie. Badając rynek
+      internetowy, a także oczekiwania i potrzeby rynku rolnego, szukamy nowych
+      możliwości dotarcia do potencjalnych Klientów. Jednocześnie robimy wszystko,
+      by udoskonalać funkcjonalność i atrakcyjność portalu. Wiemy, jak ważna
+      jest kompleksowość, dlatego Giełda rolna naszym zdaniem spełnia ten warunek.
+      Od nasion przez środki produkcyjne i maszyny, aż po owoce, warzywa i
+      zboża do nieruchomości - możesz tu kupić lub sprzedać wszystko,
+      co związane z rolnictwem.
+  </p>
+  <h3>I, co istotne - zrobisz to zupełnie bezpłatnie.</h3>
+</section>
+
+
+<section id="products" class="container">
+  <div class="row">
+    <div class="col-lg-1 col-md-1"></div>
+    <div class="col-lg-2 col-md-2 products-col">
+      <img src="./images/vegetables.jpg" alt="vegetables">
+      <p>Warzywa</p>
+    </div>
+    <div class="col-lg-2 col-md-2"></div>
+    <div class="col-lg-2 col-md-2 products-col">
+      <img src="./images/fruits.jpg" alt="fruits">
+      <p>Owoce</p>
+    </div>
+    <div class="col-lg-2 col-md-2"></div>
+    <div class="col-lg-2 col-md-2 products-col">
+      <img src="./images/corn.jpg" alt="corn">
+      <p>Zboża</p>
+    </div>
+    <div class="col-lg-1 col-md-1"></div>
+  </div>
+
+  <div class="row">
+    <div class="col-lg-1 col-md-1"></div>
+    <div class="col-lg-2 col-md-2 products-col">
+      <img src="./images/tractor.jpg" alt="tractor">
+      <p>Ciągniki rolnicze</p>
+    </div>
+    <div class="col-lg-2 col-md-2"></div>
+    <div class="col-lg-2 col-md-2 products-col">
+      <img src="./images/combain.jpg" alt="combain">
+      <p>Kompajny</p>
+    </div>
+    <div class="col-lg-2 col-md-2"></div>
+    <div class="col-lg-2 col-md-2 products-col">
+      <img src="./images/combine.jpg" alt="combine">
+      <p>Maszyny rolnicze</p>
+    </div>
+    <div class="col-lg-1 col-md-1"></div>
+  </div>
+
+  <div class="row">
+    <div class="col-lg-1 col-md-1"></div>
+    <div class="col-lg-2 col-md-2 products-col">
+      <img src="./images/animals.jpg" alt="animals">
+      <p>Zwierzęta</p>
+    </div>
+    <div class="col-lg-2 col-md-2"></div>
+    <div class="col-lg-2 col-md-2 products-col">
+      <img src="./images/houses.jpg" alt="houses">
+      <p>Nieruchomości rolne</p>
+    </div>
+    <div class="col-lg-2 col-md-2"></div>
+    <div class="col-lg-2 col-md-2 products-col">
+      <img src="./images/chemic.jpg" alt="chemic">
+      <p>Środki do produkcji</p>
+    </div>
+    <div class="col-lg-1 col-md-1"></div>
+  </div>
+  <div class="row">
+    <div class="col-lg-5 col-md-5"></div>
+    <div class="col-lg-2 col-md-2 products-col">
+      <img src="./images/other.jpg" alt="other">
+      <p>Inne</p>
+    </div>
+    <div class="col-lg-5 col-md-5"></div>
+  </div>
+</section>
+
+<section id="text-2" class="container">
+  <p>
+      W celu przyspieszenia dodawania lub przeglądania ogłoszeń pogrupowaliśmy
+      je na dziesięć kategorii - warzywa, owoce, zboża, ciągniki, kombajny,
+      maszyny rolnicze, zwierzęta, nieruchomości rolne, środki do produkcji rolnej
+      oraz sto dziesięć podkategorii. Każde ogłoszenie może zawierać zdjęcia,
+      co zdecydowanie zwiększa atrakcyjność oferty i jej zasięg, a ogłoszenia
+      promowane podnoszą ilość przeglądających nawet dwudziestokrotnie. Dokładamy
+      wszelkich starań, by zamieszczone ogłoszenia w portalu Giełda rolna trafiały
+      na odpowiedni grunt i do odpowiedniego człowieka. Podchodzimy do nich z
+      dużym zaangażowaniem, traktując jak swoje własne.
+   </p>
+</section>
+<section id="ad" class="container">
+  <div class="row">
+    <div class="col-lg-12 col-md-12">
+      <p>Promowane ogłoszenia</p>
+    </div>
+  </div>
+
+  <table class="ad-table">
+    <tr class="ad-tr">
+
+    </tr>
+  </table>
+</section>
+
+
+
+
+
+
+
+
+
+<script src="http://code.jquery.com/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="./js/app.js">
+
+</script>
+</body>
+</html>

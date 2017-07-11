@@ -1,0 +1,77 @@
+{
+  "products": [
+    {
+      "img": "./images/none.jpg",
+      "action": "Sprzedam",
+      "thing": "Inne",
+      "price": "1700 zł",
+      "region": "Śląskie",
+      "description": "Sprzedam - Rafinowany olej slonecznikowy Pakowanie: 1, 2, 5 litra Butelki PET .. Spersonalizowane marki dostepne, co oznacza, ze ??mozna dostosowac wlasna etykiete. Minimalne zamówienie: 50mt Maksymalna Zamówienie: 1000",
+      "id": 1
+    },
+    {
+      "img": "./images/none.jpg",
+      "action": "Sprzedam",
+      "thing": "Opriskiwacz",
+      "price": "do uzgodnienia",
+      "region": "Wielkopolskie",
+      "description": "Wykonujemy opryskiwacze polowe i sadownicze ,przy zastosowaniu najnowszych technologii.Opryskiwacze polowe i sadownicze od 300l do 5000l,z ręcznym i hydraulicznym rozkładaniem belki,przy zastosowaniu komputera sterującego",
+      "id": 2
+    },
+    {
+      "img": "./images/none.jpg",
+      "action": "Sprzedam",
+      "thing": "Inne",
+      "price": "do uzgodnienia",
+      "region": "Wielkopolskie",
+      "description": "Naturalne Probiotyczne Mikroorganizmy poprawiające zdrowotność. Znacznie obniżają koszty. Moza je stosować w uprawach polowych i hodowli.",
+      "id": 3
+    },
+    {
+      "img": "./images/none.jpg",
+      "action": "Kupię",
+      "thing": "Ziemniaki",
+      "price": "",
+      "region": "Wielkopolskie",
+      "description": "Poszukujemy stałego dostawcy ziemniaków jadalnych w ilościach cało-samochodowy. Ziemniaki luzem i pakowane w worki raszlowe. Długoterminowa współpraca",
+      "id": 4
+    },
+    {
+      "img": "./images/none.jpg",
+      "action": "Sprzedam",
+      "thing": "Grunty",
+      "price": "",
+      "region": "Dolnośląskie",
+      "description": "Opis nieruchomości gruntowej: Nieruchomość położona w Pogalewie Wielkim, gmina Brzeg Dolny. Składa się z działek: 144/3 - 1,67 ha; 144/6 - 3,38 ha; 145 - 3,60 ha; 156/16 - 0,78 ha; Łączna pow9,43 ha. Sąsiedztwo sta",
+      "id": 5
+    },
+    {
+      "img": "./images/none.jpg",
+      "action": "Kupię",
+      "thing": "Przenżyto",
+      "price": "",
+      "region": "Dolnośląskie",
+      "description": "Kupię pszenżyto i inne zboża. Płatność przy załadunku. Skup z całego kraju. Odbiór z gospodarstwa. Ilości od 20 ton, tel 508 430 051",
+      "id": 6
+    },
+    {
+      "img": "./images/none.jpg",
+      "action": "Sprzedam",
+      "thing": "Rzepak",
+      "price": "do uzgodnienia",
+      "region": "Mazowieckie",
+      "description": "Sprzedam 500 ton rzepaku z własnego magazynu. Organizuje załadunek, transport po stronie kupującego. Rozliczenie w dniu odbioru lub odroczone z referencjami.",
+      "id": 7
+    },
+    {
+      "img": "./images/none.jpg",
+      "action": "Kupię",
+      "thing": "Jęczmień",
+      "price": "",
+      "region": "Dolnośląskie",
+      "description": "Kupię jęczmień i inne zboża. Ilości od 20 ton. Skup z całego kraju. Odbiór z gospodarstwa. Płatność przy załadunku. tel 508 430 051",
+      "id": 8
+    }
+
+  ]
+}
