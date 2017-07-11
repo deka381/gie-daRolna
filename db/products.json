@@ -72,6 +72,81 @@
       "description": "Kupię jęczmień i inne zboża. Ilości od 20 ton. Skup z całego kraju. Odbiór z gospodarstwa. Płatność przy załadunku. tel 508 430 051",
       "id": 8
     }
-
+  ],
+  "news":[
+    {
+      "img": "./images/none.jpg",
+      "action": "Sprzedam",
+      "thing": "Drób",
+      "price": "16 zł",
+      "region": "Kujawsko-pomorskie",
+      "description": "Posiadamy w sprzedaży kurki nioski białe, brązowe i czarne, kurki Rosa - idealna kurka na wybieg. Na dzień dzisiejszy kurka ma 14 tygodni i jest w cenie 16zł . Przy większej ilości możliwość negocjacji ceny. Dow�",
+      "id": 1
+    },
+    {
+      "img": "./images/none.jpg",
+      "action": "Sprzedam",
+      "thing": "Drób",
+      "price": "17 zł",
+      "region": "Kujawsko-pomorskie",
+      "description": "Posiadamy w sprzedaży kurki nioski - kurki Rosa - idealna kurka na wybieg. Na dzień dzisiejszy kurka ma 14 tygodni i jest w cenie 17zł . Dowóz do klienta. Zapraszamy do kontaktu",
+      "id": 2
+    },
+    {
+      "img": "./images/none.jpg",
+      "action": "Sprzedam",
+      "thing": "Drób",
+      "price": "10 zł",
+      "region": "Kujawsko-pomorskie",
+      "description": "Posiadamy w sprzedaży kurki nioski białe, brązowe i czarne, kurki Rosa - idealna kurka na wybieg. Na dzień dzisiejszy kurka ma 7 tygodni i jest w cenie 10zł . Przy większej ilości możliwość negocjacji ceny. Dowóz",
+      "id": 3
+    },
+    {
+      "img": "./images/none.jpg",
+      "action": "Sprzedam",
+      "thing": "Części zamienne",
+      "price": "",
+      "region": "Łódzkie",
+      "description": "Mamy w swej ofercie: 1. Części do maszyn i ciągników rolnicznych, zarówno polskich jak i zagranicznych. 2. Myjki wysokociśnieniowe 3. Narzędzia ogrodnicze 4. Narzędzia warsztatowe. Każdy towar możemy wysłać fir",
+      "id": 4
+    },
+    {
+      "img": "./images/none.jpg",
+      "action": "Sprzedam",
+      "thing": "Bydło",
+      "price": "",
+      "region": "Dolnośląskie",
+      "description": "Sprzedam dwie jałówki rasy Limousine (bliźniaki). 22 miesiące, waga około 500 kg/szt. 8zł/kg",
+      "id": 5
+    },
+    {
+      "img": "./images/none.jpg",
+      "action": "Sprzedam",
+      "thing": "Kukurydza",
+      "price": "220zł",
+      "region": "Warmińsko-mazurskie",
+      "description": "Kiszona kukurydza w belach",
+      "id": 6
+    },
+    {
+      "img": "./images/none.jpg",
+      "action": "Sprzedam",
+      "thing": "Nawozy",
+      "price": "do uzgodnienia",
+      "region": "Zachodniopomorskie",
+      "description": "SKŁAD WAPNA NAWOZOWEGO WĘGLANOWEGO odm 05 o nazwie handlowej KUJAWIT Obecnie w zakładzie Kujawy Lafarge Kruszywa i Beton Sp. z o. o. Produkuje się wapno nawozowe węglanowe odmiany 05 o nazwie Kujawit ( odmiana 05 od 4",
+      "id": 7
+    },
+    {
+      "img": "./images/none.jpg",
+      "action": "Sprzedam",
+      "thing": "Inne",
+      "price": "1300",
+      "region": "Śląskie",
+      "description": "Sprzedam - Rafinowany cukier buraczany Jestesmy producentem cukru z buraków, czyli krysztaly i cubic.We udoskonalili bialego cukru buraczanego do spozycia przez ludzi Dostarczamy w postaci proszku lub szesciennych i dosta",
+      "id": 8
+    }
+    
   ]
+
 }

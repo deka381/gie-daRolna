@@ -7,7 +7,6 @@
 
 header{
   width: 100%;
-  border: 1px solid black;
   height: auto;
   .header-logo{
     float: left;
@@ -54,8 +53,7 @@ header{
 
 #serach{
   color: #706F6F;
-  margin-top: 200px;
-  border: 1px solid green;
+  margin-top: 200px; 
   min-height: 200px;
   .col-lg-12{
     text-align: center;
@@ -231,3 +229,147 @@ header{
 
 
 ////   SECTION AD STOP
+
+////   SECTION NEWS START
+#news{
+  p{
+    color:#DBA371;
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  button{
+    background: #95C11F;
+    border-radius: 4px;
+    border:none;
+    color: #fff;
+    font-weight: 700;
+    width: 50px;
+  }
+  table{
+    width: 90%;
+    tr{
+      margin: 10px;
+      td{
+        padding: 10px;
+        font-size: 1.7rem;
+        img{
+          width: 350px;
+          height: 170px;
+        }
+      }
+    }
+  }
+}
+////   SECTION NEWS STOP
+
+
+
+////   SECTION how its works START
+
+#how-its-work{
+  text-align: center;
+  color: #706F6F;
+  font-size: 1.7rem;
+  h3{
+    color: #DBA371;
+    font-weight: 700;
+    font-size: 2.2em;
+  }
+  h4{
+    font-weight: 600;
+    font-size: 1.9rem;
+  }
+  .row{
+    img{
+      margin: 10px;
+    }
+    p{
+      font-size: 2.4rem;
+    }
+  }
+}
+  #backCorn{
+    .slider{
+    width:100%;
+    height: 200px;
+    background-color: rgba(0,0,0,0.2 );
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .circle{
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      background-image: url("../images/combain.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+  }
+    .comment{
+      margin-top: 15px;
+      p{
+      font-size: 2rem;
+      color:#706F6F;
+      text-align: center;
+    }
+  }
+}
+
+footer{
+  margin-top: 30px;
+  padding: 20px;
+  font-size: 1.9rem;
+  color:#706F6F;
+  border-top: 1px solid #706F6F;
+  ul{
+    display: inline-block;
+    font-size: 1.6rem;
+    li{
+      float: left;
+      padding-left: 10px;
+      a{
+        color: #706F6F;
+      }
+    }
+  }
+  p{
+    font-size: 1.5rem;
+  }
+  input{
+    width: 100%;
+    height: 40px;
+    font-size: 1.7rem;
+    border:1px solid #DBA371;
+    border-radius: 4px;
+  }
+  button{
+    margin-top: 10px;
+    font-size: 2.5rem;
+    height: 40px;
+    width: 100%;
+    background-color: #DBA371;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+  }
+  .foot-icon{
+    display: inline-block;
+    float: right;
+    padding: 15px;
+    font-size: 3rem;
+    li{
+      float: left;
+      &:hover{
+        opacity: 0.7;
+      }
+    }
+  }
+}
+
+
+
+
+
+
+////   SECTION how its works STOP
