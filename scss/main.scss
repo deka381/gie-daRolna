@@ -3,14 +3,19 @@
   font-size: 12px;
 }
 ///nav START
-
+.hidden{
+  display: none;
+}
+.visibility{
+  display: block !important;
+}
 nav{
 position: fixed;
 display: flex;
 justify-content: space-between;
 width: 100%;
 background-color: #fff;
-height: 100px;
+height: 80px;
 border-bottom: 1px solid grey;
 z-index: 111;
   img{
@@ -20,8 +25,10 @@ z-index: 111;
     margin-left: 50px;
     margin-top: 15px;
   }
+  .nav-normal{
+    width: 100%;
   ul{
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     float: right;
     margin-right: 20px;
     margin-top: 30px;
@@ -47,6 +54,8 @@ z-index: 111;
   }
 }
 
+}
+
 
 //NAV STOP
 ////   HEADER START
@@ -61,6 +70,13 @@ header{
     height: 47px;
     width: 217px;
   }
+  .advertisement{
+    width: 60%;
+    height: 70px;
+    background-color: rgba(0,0,0,0.2);
+    margin: auto;
+    margin-top: 100px;
+  }
 }
 
 
@@ -71,11 +87,11 @@ header{
     .header-buttons-all{
     height: 37px;
     font-weight: 600;
+    width: 220px;
     border: none;
     height: 49px;
     border-radius: 4px;
     font-size: 1.7rem;
-    width: 220px;
   }
     .header-btn-left{
       background-color: #95C11F;
@@ -412,8 +428,49 @@ footer{
     }
   }
 }
+#page2-about{
+  font-size: 2rem;
+  .desc{
+    font-size: 1.6rem;
+  }
+}
+#page2-contactWith{
+  .contactDiv{
+    font-size: 2rem;
+    height: 200px;
+    width: 400px;
+    margin: auto;
+    border: 1px solid #DBA371;
+    padding: 30px;
+    p{
+      padding: 10px;
+      color: rgba(0,114,255,0.9);
+    }
+    span{
+      margin-right: 15px;
+      color: rgba(0,0,255,0.4);
+    }
+    }
+    .addAdvi{
+      width: 100%;
+      margin-top: 100px;
+      display: flex;
+      justify-content: center;
+      button{
+        background-color: #DBA371;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        height: 37px;
+        font-weight: 600;
+        width: 220px;
+        &:hover{
+        background-color: #95C11F;
+        }
+      }
+  }
 
-
+}
 
 
 
